@@ -1,0 +1,11 @@
+kind: Pod
+apiVerson: v1
+matadata:
+  name: annotations
+  namespace: expense
+  annotations:
+    description: "This is a pod with annotations"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
