@@ -7,4 +7,4 @@ spec:
   containers:
   # Apod contains more than one container
   - name: nginx
-    image: niginx
+    image: nginx
